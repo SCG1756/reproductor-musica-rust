@@ -1,2 +1,7 @@
 /target
 Cargo.lock
+/musica/*
+!/musica/.gitkeep
+*.mp3
+*.wav
+*.flac
