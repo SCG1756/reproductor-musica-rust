@@ -1,0 +1,13 @@
+[package]
+name = "reproductor_musica"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = { version = "0.35", default-features = false, features = ["glow", "default_fonts"] }
+egui = "0.35"
+rodio = "0.23.0"
+walkdir = "2.5.0"
+rand = "0.9" 
+rustfft = "6.4.1"
+egui_extras = { version = "0.35.0", features = ["image"] }
