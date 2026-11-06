@@ -1,8 +1,3 @@
-mod audio;
-mod ui;
-
-use eframe::egui;
-
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions {
         renderer: eframe::Renderer::Glow, 
@@ -11,7 +6,7 @@ fn main() -> eframe::Result<()> {
     };
     
     eframe::run_native(
-        "Aero Player Rust",
+        "Aero Music Player", 
         options,
         Box::new(|cc| {
             egui_extras::install_image_loaders(&cc.egui_ctx);
