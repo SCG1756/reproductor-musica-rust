@@ -1,3 +1,8 @@
+mod audio; 
+mod ui;    
+
+use eframe::egui;
+
 fn main() -> eframe::Result<()> {
     let options = eframe::NativeOptions {
         renderer: eframe::Renderer::Glow, 
